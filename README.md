@@ -2,7 +2,7 @@
 
 Sobre o Projeto
 
-Ele é um aplicativo desenvolvido em Swift para macOS e iOS que monitora atividades de aplicativos em execução e realiza análise de logs para identificar possíveis agentes maliciosos. Ele integra recursos como monitoramento de arquivos, coleta de localização, e análise de segurança utilizando APIs externas.
+Ele é um aplicativo desenvolvido em Swift exclusivamente para macOS e IOS que monitora atividades de aplicativos em execução e realiza análise de logs para identificar possíveis agentes maliciosos. Ele integra recursos como monitoramento de arquivos, coleta de localização, e análise de segurança utilizando APIs externas.
 O objetivo principal do projeto é fornecer uma ferramenta automatizada para identificar atividades suspeitas ou maliciosas em tempo real, enviando os dados coletados para análise centralizada na nuvem da AWS.
 
 Recursos Principais
