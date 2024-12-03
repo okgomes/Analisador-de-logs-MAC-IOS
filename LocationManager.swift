@@ -61,7 +61,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             return
         }
 
-        let urlString = "https://x0pmhbw9sl.execute-api.us-east-1.amazonaws.com/dev/logs"
+        let urlString = "LINK SITE PRIVADO AWS"
         guard let url = URL(string: urlString) else {
             print("URL inválida")
             return
@@ -81,7 +81,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             let jsonData = try JSONSerialization.data(withJSONObject: logData, options: [])
             request.httpBody = jsonData
 
-            let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            let task = URLSession.shared.dacataTask(with: request) { data, response, error in
                 if let error = error {
                     print("Erro ao enviar localização: \(error)")
                     return
